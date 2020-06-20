@@ -2,9 +2,9 @@ var braintree = require("braintree");
 
 var gateway = braintree.connect({
   environment: braintree.Environment.Sandbox,
-  merchantId: "dyv5swxcykz5ppp9",
-  publicKey: "tyf5rb4dsbkh52pt",
-  privateKey: "ca0576a9b52fd539d91391810bf30776",
+  merchantId: "",
+  publicKey: "",
+  privateKey: "",
 });
 
 exports.getToken = (req, res) => {
